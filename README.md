@@ -1,56 +1,40 @@
-\# Autonomous Vehicle Navigation \& Path Tracking 🚗🛣️
+# Autonomous Vehicle Navigation & Path Tracking 🚗🛣️
 
+An advanced mechatronics & control engineering project focused on autonomous trajectory planning, vehicle dynamics modeling, and real-time path tracking using **MATLAB** & **Simulink**.
 
+---
 
-This project focuses on autonomous vehicle navigation and path tracking using \*\*MATLAB\*\* and \*\*Simulink\*\*. It includes the core control algorithms and simulation models required for accurate trajectory following.
+## 📊 Trajectory Simulation & Results
 
+Visual validation of the autonomous navigation algorithms and kinematic controller performance:
 
+### 1. Path Tracking Trajectory
+<img src="1.png" alt="Path Tracking Plot" width="100%"/>
 
-\---
+---
 
+### 2. Final Navigation Performance
+<img src="Final_Result_Plot.png" alt="Final Result Plot" width="100%"/>
 
+---
 
-\## 🛠️ Project Files
+## ⚙️ Key Project Modules
 
+* **Autonomous Path Planning:** Core algorithms engineered in MATLAB (`main_autonomous_navigation.m`) for trajectory generation and reference route calculation.
+* **Kinematic Vehicle Dynamics:** Comprehensive Simulink model (`path_tracking_model.slx`) simulating dynamic steering response and vehicle behavior.
+* **Closed-Loop Control System:** Real-time path tracking logic minimizing cross-track and heading errors during navigation.
 
+---
 
-\* `main\_autonomous\_navigation.m` : The main MATLAB script for initializing parameters, defining the path, and running the navigation logic.
+## 📁 Repository Files
 
-\* `path\_tracking\_model.slx` : The Simulink block diagram modeling the vehicle dynamics and the path-tracking controller.
+* `main_autonomous_navigation.m` — Primary MATLAB script for loading trajectory parameters and running navigation loops.
+* `path_tracking_model.slx` — Simulink block diagram modeling closed-loop control and vehicle physics.
+* `1.png` & `Final_Result_Plot.png` — Simulation output graphs and performance plots.
 
+---
 
+## 💻 Tech Stack & Domain
 
-\---
-
-
-
-\## 📊 Simulation Results
-
-
-
-Here are the visual representations of the navigation and path-tracking performance:
-
-
-
-\### Path Tracking Trajectory
-
-!\[Path Tracking Plot](1.png)
-
-
-
-\### Final Navigation Results
-
-!\[Final Result Plot](Final\_Result\_Plot.png)
-
-
-
-\---
-
-
-
-\## 💻 Tech Stack
-
-\* \*\*MATLAB\*\* 
-
-\* \*\*Simulink\*\*
-
+* **Simulation & Modeling:** MATLAB, Simulink
+* **Engineering Domain:** Autonomous Driving, Kinematic Modeling, Control Systems
